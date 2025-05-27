@@ -1,2 +1,0 @@
-# Cognizant
-Technical Assessment Exercises
