@@ -1,0 +1,46 @@
+1. css/ – Cascading Style Sheets
+This folder contains all the compiled Bootstrap stylesheets (usually in .css format). It is used to style the HTML elements consistently across your site.
+
+Typical files inside css/:
+bootstrap.css: The full, unminified version of Bootstrap's CSS. Easier to read and edit if needed.
+
+bootstrap.min.css: The minified version, optimized for performance (smaller file size, faster load times).
+
+bootstrap-grid.css / bootstrap-grid.min.css: Contains only the grid system styles (for responsive layouts), without other Bootstrap components.
+
+bootstrap-reboot.css / bootstrap-reboot.min.css: Contains the Reboot module, which resets browser inconsistencies in styling.
+
+bootstrap-utilities.css: Contains utility classes only, for custom layouts or tweaks.
+
+Purpose: Provides styling rules for layout, components (buttons, modals, navbars), utilities, and responsive design.
+
+
+
+2. js/ – JavaScript
+This folder includes all the JavaScript functionality that Bootstrap offers to enhance interactivity and dynamic behavior in your web pages.
+
+Typical files inside js/:
+bootstrap.bundle.js: Contains all Bootstrap's JavaScript components (modals, dropdowns, tooltips, etc.) plus Popper.js, which is required for tooltips and popovers.
+
+bootstrap.bundle.min.js: Minified version of the bundle.
+
+bootstrap.js: Only Bootstrap’s JavaScript code, without Popper.js.
+
+bootstrap.min.js: Minified version of the above.
+
+Purpose:
+Enables interactive components like modals, dropdowns, carousels, collapses, tooltips, and more.
+
+
+
+3. icons/ – Bootstrap Icons 
+This folder is present only if you downloaded the Bootstrap Icons package along with Bootstrap. It contains SVG icon files and possibly a CSS file to use them as fonts or inline icons.
+
+Typical contents:
+Individual .svg files for each icon.
+
+A compiled bootstrap-icons.css or bootstrap-icons.woff for font-based icons.
+
+Purpose:
+Provides a free, open-source set of icons to use directly in your UI for buttons, navigation, inputs, etc.
+

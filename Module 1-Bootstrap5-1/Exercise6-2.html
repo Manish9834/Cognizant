@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Card Layout with Flex Utilities</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="card p-3" style="max-width: 600px;">
+
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Card Title</h5>
+        <button class="btn btn-primary btn-sm">Action</button>
+      </div>
+
+      <p class="card-text mt-3">
+        This card uses <code>justify-content-between</code> to push the title and button to opposite ends,
+        and <code>align-items-center</code> to vertically center them within the flex container.
+      </p>
+
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

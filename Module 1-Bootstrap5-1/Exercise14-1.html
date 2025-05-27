@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Display Utilities</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+
+  <div class="container py-5">
+    <h2 class="mb-4 text-center">Responsive Display Example</h2>
+
+    <!-- Hidden on all screen sizes -->
+    <div class="bg-danger text-white p-3 mb-3 d-none">
+      This is <strong>never</strong> visible (d-none).
+    </div>
+
+    <!-- Visible on medium and up (≥768px) -->
+    <div class="bg-warning text-dark p-3 mb-3 d-none d-md-block">
+      This box is <strong>only visible on md (tablet) and larger</strong> screens.
+    </div>
+
+    <!-- Flex only on large and up (≥992px) -->
+    <div class="bg-success text-white p-3 d-lg-flex d-none justify-content-between">
+      <span>Visible as flex on lg (desktop) and larger</span>
+      <span>Another Flex Item</span>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

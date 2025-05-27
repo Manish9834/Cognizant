@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Two-Column Layout</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Sidebar (3 columns on md and up, full width on small screens) -->
+      <div class="col-12 col-md-3 mb-4">
+        <div class="bg-light p-3 border rounded">
+          <h5>Sidebar</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main Content (9 columns on md and up) -->
+      <div class="col-12 col-md-9">
+        <div class="p-4 border rounded">
+          <h2>Main Content Area</h2>
+          <p>This is the main content section. It takes up 9 columns on medium and larger screens and full width on smaller screens.</p>
+          <p>You can add text, images, cards, or anything else here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Margin and Padding Utilities</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <style>
+    .box {
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-4">
+    <!-- Header section with top margin and vertical padding -->
+    <div class="box mt-4 py-5 text-center">
+      <h2>Header Section</h2>
+      <p class="text-muted">This section has <code>mt-4</code> (top margin) and <code>py-5</code> (vertical padding).</p>
+    </div>
+
+    <!-- Main content with uniform margin and padding -->
+    <div class="box m-3 p-2">
+      <h4>Main Content</h4>
+      <p>This block uses <code>m-3</code> for outer spacing and <code>p-2</code> for inner spacing.</p>
+    </div>
+
+    <!-- Footer section with top margin only -->
+    <div class="box mt-4 p-2 text-center">
+      <p class="mb-0">Footer with <code>mt-4</code> and <code>p-2</code>.</p>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
